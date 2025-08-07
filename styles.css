@@ -1,0 +1,91 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(55, 105, 108);
+    
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 15px;
+    font-size : large;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#navbar a:hover {
+    color: rgb(198, 123, 10);
+    text-decoration: underline;
+}
+
+section h2 {
+    color: rgb(198, 123, 10);
+
+}
+
+#hero {
+    display: flex;
+    gap: 60px;
+    margin: 60px;
+    
+}
+
+.img1 {
+    border: 3px solid rgb(221, 162, 13);
+    border-radius: 50%;
+
+}
+
+.hero-description {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 80px;
+}
+
+#about {
+    padding: 30px;
+    border: 3px solid grey;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: large;
+    display: flex;
+    text-align: center;
+    background-color: rgb(192, 215, 215);
+}
+
+
+#collection {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    font-size: larger;
+    margin: 60px;
+}
+
+#collection img {
+    border: 3px solid rgb(221, 162, 13);
+    border-radius: 10%;
+    width: 200;
+    height: 200;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
