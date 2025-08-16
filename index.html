@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donie Paul's Week 3 CSS Portfolio</title>
+  <meta name="description" content="Donie Paul's portfolio page showcasing CSS basics and the Box Model." />
+  <meta name="author" content="Donie Paul" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Donie Paul's Portfolio</h1>
+    <p>Exploring CSS fundamentals — colors, margins, padding, borders and layout.</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#form">Sign In</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This portfolio page demonstrates Donie's first week of CSS practice.</p>
+      <ul>
+        <li>Semantic HTML5 structure maintained</li>
+        <li>Added colors, spacing and borders using CSS</li>
+        <li>Practiced the CSS Box model</li>
+        <li>Improved readability and visual organization</li>
+      </ul>
+    </section>
+    <section id="features">
+      <h2>Key CSS Additions</h2>
+      <ol>
+        <li>Applied margin and padding for spacing</li>
+        <li>Used borders and background colors to define boxes</li>
+        <li>Styled headings and navigation links</li>
+        <li>Created a consistent layout with width limits and centered content</li>
+      </ol>
+    </section>
+    <section id="media">
+  <h2>Media Example</h2>
+  <figure>
+    <img src="https://images.pexels.com/photos/1430677/pexels-photo-1430677.jpeg" alt="Photo of blue sea" width="500" height="333" />
+    <figcaption>Paul's Inspirational Photo</figcaption>
+  </figure>
+    </section>
+    <section id="form">
+      <h2>Sign In</h2>
+      <form action="#" method="post" novalidate>
+        <fieldset>
+          <legend>Personal Details</legend>
+          <label for="fullname">Full Name *</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Donie Paul" required minlength="3" autocomplete="name" />
+          
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" placeholder="doniepaul@example.com" required autocomplete="email" />
+          
+          <label for="birthdate">Birthdate</label>
+          <input type="date" id="birthdate" name="birthdate" min="1950-01-01" max="2005-12-31" autocomplete="bday" />
+        </fieldset>
+        <fieldset>
+          <legend>Account Info</legend>
+          <label for="username">Username *</label>
+          <input type="text" id="username" name="username" placeholder="donie2025" required minlength="5" pattern="^[a-zA-Z0-9_-]{5,15}$" title="5-15 letters, numbers, underscore or hyphen only" autocomplete="username" />
+          
+          <label for="password">Password *</label>
+          <input type="password" id="password" name="password" placeholder="****" required minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must include uppercase, lowercase, and number" autocomplete="new-password" />
+          
+          <label for="confirm_password">Confirm Password *</label>
+          <input type="password" id="confirm_password" name="confirm_password" placeholder="****" required minlength="8" autocomplete="new-password" />
+        </fieldset>
+        <fieldset>
+          <legend>Preferences</legend>
+          <label>Gender *</label>
+          <input type="radio" id="male" name="gender" value="male" required />
+          <label class="inline" for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label class="inline" for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other" />
+          <label class="inline" for="other">Other</label>
+          <label for="country">Country *</label>
+          <select id="country" name="country" required autocomplete="country-name">
+            <option value="">Select your country</option>
+            <option value="ke">Kenya</option>
+            <option value="us">United States</option>
+            <option value="gb">United Kingdom</option>
+            <option value="ca">Canada</option>
+            <option value="other">Other</option>
+          </select>
+          <label for="newsletter">
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes" />
+            Subscribe to newsletter
+          </label>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Have questions? Reach out via <a href="mailto:doniepaul2@gmail.com">doniepaul2@gmail.com</a>.</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Donie Paul - CSS Wk3 Practice</p>
+  </footer>
+</body>
+</html>
