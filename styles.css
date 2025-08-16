@@ -1,0 +1,189 @@
+/* styles.css - Donie Paul's Week 3 CSS Practice with Sign In Form styling from Week 2 */
+
+/* Universal box model and reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 20px auto;
+  background: #fff;
+  color: #222;
+  line-height: 1.5;
+  padding: 0 1rem;
+}
+
+/* Header */
+header {
+  border-bottom: 3px solid #0077cc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+header h1 {
+  color: #0077cc;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+header p {
+  font-size: 1.1rem;
+  color: #004a80;
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 2rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  padding-left: 0;
+}
+nav a {
+  color: #0077cc;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+nav a:hover,
+nav a:focus {
+  background-color: #005a99;
+  color: #fff;
+  outline: none;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+section h2 {
+  color: #0077cc;
+  margin-bottom: 1rem;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  background-color: #f9fbff;
+  border: 1px solid #0077cc;
+}
+th, td {
+  border: 1px solid #0077cc;
+  padding: 0.5rem 0.8rem;
+  text-align: left;
+}
+th {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+/* Figure and media */
+figure {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #0077cc;
+  border-radius: 6px;
+  text-align: center;
+  background: #e6f2ff;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+figcaption {
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+/* Form Styling from Week 2 */
+form {
+  border: 1px solid #0077cc;
+  padding: 1rem;
+  border-radius: 5px;
+  background: #f0f8ff;
+}
+fieldset {
+  border: 1px solid #0077cc;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+}
+legend {
+  font-weight: bold;
+  color: #0077cc;
+}
+label {
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+button {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+button:hover,
+button:focus {
+  background-color: #005a99;
+}
+
+/* Contact section */
+#contact a {
+  color: #0077cc;
+  text-decoration: underline;
+}
+#contact a:hover,
+#contact a:focus {
+  color: #005a99;
+  text-decoration: none;
+  outline: none;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #0077cc;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
