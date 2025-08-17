@@ -82,3 +82,18 @@ section p {
     margin-bottom: 12px;
     line-height: 1.5;
 }
+/* ===============================
+   Hobby Boxes
+   =============================== */
+   .hobby-box {
+    background-color: lightgray;
+    border: 2px solid gray;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.hobby-box h3 {
+    color: darkblue;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
