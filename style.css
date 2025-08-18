@@ -1,0 +1,57 @@
+h1{
+    color: brown;
+}
+
+header{
+    background-color: rgb(224, 211, 236);
+}
+
+header p, header h1{
+    display: inline;
+    margin: 2%;
+}
+
+
+.p_header{
+    font-size: larger;
+}
+
+article{
+    margin: auto 25%;
+    padding-top: 2%;
+}
+
+.lorem{
+    margin: 0 40%;
+    margin-top: 2%;
+    background-color: rgb(183, 127, 235);
+    padding: 0.5%;
+    margin-bottom: 1%;
+}
+
+.lorem-article{
+    background-color: rgb(209, 188, 228);
+    border: 2%;
+    padding: 2%;
+}
+
+.label{
+   
+    font-size: large;
+    text-align: center;
+}
+
+button{
+    margin: 2% 0;
+}
+
+button:hover{
+    background-color:  rgb(204, 239, 239);
+}
+
+.comment-form{
+    background-color: rgb(209, 188, 228);
+    margin: 5% 25%;
+    padding: 2%;
+
+}
