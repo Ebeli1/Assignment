@@ -1,0 +1,220 @@
+/* === Reset some default browser styles === */
+body, h1, h2, h3, p, ul, li, address {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Use border-box for easier sizing */
+}
+
+/* === Body Styling === */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fffbee; /* Light honey background */
+  color: #3a2c09;
+  line-height: 1.6;
+  padding: 0;
+}
+
+/* === Header and Navigation === */
+header {
+  background-color: #ffe082; /* Honey yellow */
+  padding: 24px 0 12px 0;
+  border-bottom: 4px solid #ffd54f;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #a67c00;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6d4c00;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #ffd54f;
+  color: #3a2c09;
+}
+
+/* === Main Content Sections === */
+main {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+/* Box Model demonstration for sections */
+section {
+  background-color: #fff8e1;
+  border: 2px solid #ffe082;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(166, 124, 0, 0.07);
+}
+
+/* Headings */
+h2 {
+  color: #a67c00;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: #6d4c00;
+  margin-bottom: 6px;
+  font-size: 1.15rem;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+/* Links */
+a {
+  color: #1e88e5;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover,
+a:focus {
+  color: #0d47a1;
+}
+
+/* Buttons */
+button {
+  background-color: #a67c00;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover,
+button:focus {
+  background-color: #8b6f00;
+}
+
+/* === Footer === */
+footer {
+  background-color: #3a2c09;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+/* @media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px 0;
+  }
+}
+
+/* Small devices (tablets, 600px and up) */
+/* @media (min-width: 601px) and (max-width: 768px) {
+  nav ul {
+    gap: 24px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  button {
+    padding: 10px 18px;
+  }
+} */
+
+/* Medium devices (desktops, 768px and up) */
+/* @media (min-width: 769px) and (max-width: 1024px) {
+  main {
+    max-width: 700px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+} */
+
+/* Large devices (large desktops, 1024px and up) */
+/* @media (min-width: 1025px) {
+  main {
+    max-width: 800px;
+  }
+
+  section {
+    padding: 24px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+}  */
