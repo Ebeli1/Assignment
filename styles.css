@@ -1,0 +1,157 @@
+/* ===============================
+   Global Reset & Base Styles
+   =============================== */
+   * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: black;
+}
+/* ===============================
+   Header & Navigation
+   =============================== */
+   header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid blue;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border: 2px solid white;
+}
+
+nav ul li a:hover {
+    background-color: lightblue;
+    color: darkblue;
+}
+/* ===============================
+   Main Layout
+   =============================== */
+   main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* ===============================
+   Sections (About, Hobbies, Contact)
+   =============================== */
+   section {
+    background-color: white;
+    margin: 30px 0;
+    padding: 25px;
+    border: 3px solid darkblue;
+}
+
+section h2 {
+    color: darkblue;
+    font-size: 28px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 8px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+/* ===============================
+   Hobby Boxes
+   =============================== */
+   .hobby-box {
+    background-color: lightgray;
+    border: 2px solid gray;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.hobby-box h3 {
+    color: darkblue;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* ===============================
+   Buttons
+   =============================== */
+   .my-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.my-button:hover {
+    background-color: darkgreen;
+}
+/* ===============================
+   Contact Info Box
+   =============================== */
+   .contact-info {
+    background-color: lightyellow;
+    border: 3px dotted orange;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.contact-info p {
+    margin: 8px 0;
+}
+/* ===============================
+   Footer
+   =============================== */
+   footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 4px solid darkgray;
+}
+/* ===============================
+   Responsive Design
+   =============================== */
+   @media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 15px 0;
+        padding: 15px;
+    }
+}
