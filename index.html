@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & Box Model Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Welcome to CSS Basics</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="about" class="section">
+            <h2>About CSS & The Box Model</h2>
+            <p class="intro-text">
+                CSS (Cascading Style Sheets) is the language used to style and layout web pages. 
+                Understanding the Box Model is fundamental to creating well-structured layouts.
+            </p>
+            
+            <div class="box-model-demo">
+                <h3>Box Model Components</h3>
+                <div class="content-box">
+                    <p>This is the <strong>content</strong> area of the box.</p>
+                </div>
+                <div class="padding-box">
+                    <p>This box demonstrates <strong>padding</strong> - the space between content and border.</p>
+                </div>
+                <div class="border-box">
+                    <p>This box shows a visible <strong>border</strong> around the padding and content.</p>
+                </div>
+                <div class="margin-box">
+                    <p>This box has <strong>margin</strong> - the space outside the border that separates it from other elements.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <h2>CSS Properties in Action</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Typography</h3>
+                    <p>Styling text with font-size, color, and font-family properties.</p>
+                    <button class="btn primary">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Colors & Backgrounds</h3>
+                    <p>Adding visual appeal with background colors and text colors.</p>
+                    <button class="btn secondary">Explore</button>
+                </div>
+                <div class="card">
+                    <h3>Layout & Spacing</h3>
+                    <p>Using margin, padding, and borders to control element spacing.</p>
+                    <button class="btn primary">Discover</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section highlight">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> aoluoch271@gmail.com</p>
+                <p><strong>Phone:</strong> +254704449830</p>
+                <p><strong>Address:</strong> 123 Web Development Street, CSS City</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 CSS Basics Demo. Created for learning purposes.</p>
+    </footer>
+</body>
+</html>
