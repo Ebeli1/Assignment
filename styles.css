@@ -1,0 +1,199 @@
+/* Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* === Headers Styling === */
+h1, h2, h3 {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ff7300;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: #444;
+}
+
+h1:hover, h2:hover, h3:hover {
+  color: #ff914d;
+  transform: scale(1.05);
+}
+
+/* === Navigation Bar === */
+.navbar {
+  display: flex;              /* Makes links horizontal */
+  justify-content: center;    /* Centers them */
+  gap: 20px;                  /* Space between links */
+  margin-bottom: 20px;
+  background: #fff3e0;        /* Light background */
+  padding: 15px;
+  border-radius: 12px;
+}
+
+/* Links inside navbar */
+.navbar a {
+  color: #ff7300;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff914d;
+  transform: scale(1.1);
+  border-bottom: 2px solid #ff914d;
+}
+
+
+/* === Links Styling === */
+a {
+  color: #ff7300;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:hover {
+  color: #ff914d;
+  border-bottom: 2px solid #ff914d;
+}
+
+/* Active/Visited States */
+a:visited {
+  color: #b85c00;
+}
+
+a:active {
+  color: #ff4500;
+}
+
+
+/* Recipe Grid */
+.recipe-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Recipe Card */
+.recipe-card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card Hover Effect */
+.recipe-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  border-color: #ff914d;
+}
+
+/* Headings Hover */
+.recipe-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  color: #444;
+  transition: color 0.3s ease;
+}
+.recipe-card h2:hover {
+  color: #ff914d;
+}
+
+/* Images */
+.recipe-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+.recipe-card img:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+.cta-btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ff914d;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.cta-btn:hover {
+  background: #ff7300;
+  transform: scale(1.05);
+}
+
+/* Responsive Text Hover */
+.recipe-card p,
+.recipe-card li {
+  transition: color 0.3s ease;
+}
+.recipe-card p:hover,
+.recipe-card li:hover {
+  color: #ff7300;
+}
+
+/* === Footer === */
+.footer {
+  background: #ff7300;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.footer p {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffe0b2;
+  transform: scale(1.1);
+}
