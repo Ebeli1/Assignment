@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Assignment</title>
+    <link rel="stylesheet" href="created styles.css">
+</head>
+<body>
+
+    
+    <header class="page-header">
+        <h1>Understanding the CSS Box Model</h1>
+        <p>A simple page to demonstrate basic CSS styling and layout.</p>
+    </header>
+
+   
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#cards">Examples</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+    </nav>
+
+  
+    <main>
+     
+        <section id="intro" class="content-section">
+            <h2>The Foundation of Web Layout</h2>
+            <p>Every element on a web page is a rectangular box. The CSS Box Model describes how these boxes are rendered, defining their size, spacing, and borders. Understanding this model is key to controlling the look and feel of your website.</p>
+            <p>It consists of four main parts: the content area, padding, border, and margin.</p>
+        </section>
+
+        <!-- Cards Section (Demonstrates Box Model on multiple elements) -->
+        <section id="cards" class="card-container content-section">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>This box has a background color, padding, a solid border, and a margin separating it from its neighbors. Notice how these properties affect the space around and inside the content.</p>
+            </div>
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>By applying different values for margin and padding, you can change the spacing and create a consistent, clean layout.</p>
+            </div>
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>This is a third example to show how consistent styling creates a professional and organized look for your web page.</p>
+            </div>
+        </section>
+
+        <!-- Button Section -->
+        <section class="button-section content-section">
+            <button class="styled-button">Learn More</button>
+            <button class="styled-button">Get Started</button>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="page-footer">
+        <p>&copy; 2024 CSS Basics. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
