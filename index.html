@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Basics & Box Model Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Demonstration of CSS basics and the box model: margins, padding, borders, and backgrounds."
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-title">CSS Basics & The Box Model</h1>
+        <nav class="site-nav" aria-label="Primary Navigation">
+          <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#cards">Cards</a></li>
+            <li><a href="#box-model">Box Model</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="intro" class="section hero">
+        <div class="container">
+          <h2>Welcome</h2>
+          <p>
+            This page demonstrates essential CSS properties and the CSS Box
+            Model. Explore headings, paragraphs, buttons, and card layouts while
+            observing how margin, padding, borders, and background colors affect
+            layout and spacing.
+          </p>
+          <a class="btn" href="#cards">Explore the Cards</a>
+        </div>
+      </section>
+
+      <section id="cards" class="section">
+        <div class="container">
+          <h2>Styled Cards</h2>
+          <p>
+            Each card uses margin for outer spacing, padding for inner spacing,
+            borders for visible edges, and a subtle shadow for depth.
+          </p>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Card One</h3>
+              <p>
+                This card showcases padding inside the border and margin between
+                cards.
+              </p>
+              <a class="btn btn-secondary" href="#box-model">See Box Model</a>
+            </article>
+
+            <article class="card">
+              <h3>Card Two</h3>
+              <p>
+                Borders outline the element's edge; background helps visualize
+                the content area.
+              </p>
+              <button class="btn" type="button">A Button</button>
+            </article>
+
+            <article class="card">
+              <h3>Card Three</h3>
+              <p>
+                Consistent spacing creates a clean, readable layout using simple
+                CSS rules.
+              </p>
+              <a class="btn btn-ghost" href="#contact">Contact</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="box-model" class="section alt">
+        <div class="container">
+          <h2>The CSS Box Model</h2>
+          <p>
+            The box model consists of content, padding, border, and margin. The
+            demo below uses contrasting colors and labels to help visualize each
+            layer.
+          </p>
+
+          <div class="box-demo">
+            <div class="box-label margin">margin</div>
+            <div class="box padding">
+              <div class="box-label border">border</div>
+              <div class="content">
+                <strong>content</strong>
+                <p>
+                  This is the content area. The green region is padding, the
+                  dark line is the border, and the space around the orange outer
+                  edge is margin.
+                </p>
+              </div>
+            </div>
+            <div class="box-label padding-label">padding</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container">
+        <p>
+          Need help? Email
+          <a href="mailto:nyonggodwill@gmail.com">nyonggodwill@gmail.com</a>
+        </p>
+        <p class="small">No JavaScript or external CSS libraries used.</p>
+      </div>
+    </footer>
+  </body>
+</html>
