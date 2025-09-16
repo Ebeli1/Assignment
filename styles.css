@@ -1,0 +1,28 @@
+h1 {
+    background-color: aliceblue;
+    color: purple;
+}
+
+h2 {
+    background-color: aquamarine;
+    color: darkgreen;
+}
+
+p {
+    background-color: cornsilk;
+    color: brown;
+    scroll-margin-right: 300px;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+section {
+    width: 300px; margin:0 auto; border: 1px solid black; padding: 20px;background-color: lightgrey;box-shadow: 5px 5px 5px black;box-sizing: 10px 10px 10px;
+}
+
+h2 {
+    background-color: gainsboro; text-align: center; border: 1px solid black;font-weight: lighter;
+}
