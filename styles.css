@@ -1,0 +1,101 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.site-header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.nav a:hover {
+  background: #555;
+}
+
+/* Intro Section */
+.intro {
+  background: #e3f2fd;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #64b5f6;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Cards */
+.card-header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  margin: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 2px solid #ccc;
+  padding: 15px;
+  flex: 1;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* Example Box for Box Model */
+.example-box {
+  margin: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background: #c8e6c9;
+  border: 5px solid #388e3c;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Footer */
+.site-footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
