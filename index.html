@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Basics & Box Model</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>CSS Basics & The Box Model</h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#card-header">Cards</a></li>
+        <li><a href="#box-model">Box Model</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Introduction</h2>
+      <p>
+        This page demonstrates how the CSS <strong>Box Model</strong> works by applying 
+        margins, borders, and padding to elements. 
+      </p>
+    </section>
+
+    <section id="card-header" class="card-header">
+      <h2>Box Model in Action</h2>
+      <section class="cards">
+      <div class="card">
+        <h3>Card 1</h3>
+        <p>Padding adds space <em>inside</em> the element’s border.</p>
+      </div>
+      <div class="card">
+        <h3>Card 2</h3>
+        <p>Margin adds space <em>outside</em> the element’s border.</p>
+      </div>
+      <div class="card">
+        <h3>Card 3</h3>
+        <p>Border defines the visible boundary of the element.</p>
+      </div>
+    </section>
+
+    <section id="box-model" class="example-box">
+      <h2>Example Box</h2>
+      <div class="box">
+        Content Area
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 CSS Basics Assignment, Psalmo-Tee</p>
+  </footer>
+</body>
+</html>
