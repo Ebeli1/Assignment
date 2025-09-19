@@ -1,0 +1,147 @@
+/* ================================
+   Global Styles
+   ================================ */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fdf9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #388e3c;
+}
+
+/* Headings */
+h1, h2 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+/* ================================
+   Lists
+   ================================ */
+ul {
+  background: #e8f5e9;
+  padding: 15px;
+  border: 2px solid #c8e6c9;
+  border-radius: 8px;
+  list-style-type: square;
+}
+
+/* ================================
+   Table
+   ================================ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: #ffffff;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #a5d6a7;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* ================================
+   Media
+   ================================ */
+figure {
+  margin: 20px auto;
+  text-align: center;
+}
+
+img, video, audio {
+  margin-top: 10px;
+  border: 3px solid #4caf50;
+  border-radius: 8px;
+  padding: 5px; /* ✅ Demonstrates padding inside border */
+}
+
+/* ================================
+   Form
+   ================================ */
+form {
+  background: #f1f8e9;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #c5e1a5;
+  border-radius: 10px;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  border: 2px dashed #81c784;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #388e3c;
+}
+
+label {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;   /* ✅ Box Model: padding inside inputs */
+  margin: 8px 0;   /* ✅ Box Model: margin outside inputs */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background: #388e3c;
+}
+
+/* ================================
+   Footer
+   ================================ */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #4caf50;
+  color: white;
+  border-top: 5px solid #388e3c;
+  margin-top: 20px;
+}
